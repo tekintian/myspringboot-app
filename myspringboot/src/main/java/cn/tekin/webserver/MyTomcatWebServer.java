@@ -18,7 +18,7 @@ public class MyTomcatWebServer implements MyWebServer {
         Service service = server.findService("Tomcat");
 
         Connector connector = new Connector();
-        connector.setPort(8088);
+        connector.setPort(8089);
 
         Engine engine = new StandardEngine();
         engine.setDefaultHost("localhost");

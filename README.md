@@ -51,4 +51,24 @@ src/main/java/cn/tekin/anno/MySpringbootApp.java
 conditionContext.getClassLoader().loadClass("org.apache.catalina.startup.Tomcat");
 
 
+### tomcat启动后快速自动退出问题解决 
+错误日志
+~~~sh
+Connected to the target VM, address: '127.0.0.1:51129', transport: 'socket'
+三月 15, 2024 11:55:00 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-8089"]
+三月 15, 2024 11:55:00 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+三月 15, 2024 11:55:00 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet engine: [Apache Tomcat/8.5.93]
+三月 15, 2024 11:55:00 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-8089"]
+Tomcat Started
+Disconnected from the target VM, address: '127.0.0.1:51129', transport: 'socket'
+
+Process finished with exit code 0
+~~~
+原因: 之前有启动过tmcat且非正常关闭.
+解决方法: 这个需要重新启动电脑来解决这个问题!
+
 
