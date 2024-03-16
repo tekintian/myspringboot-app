@@ -2,19 +2,32 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/README.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringboot/.gitignore" charset="US-ASCII" />
     <file url="file://$PROJECT_DIR$/myspringboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringboot/src/main/java/cn/tekin/MyImportSelector.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringboot/src/main/java/cn/tekin/MySpringbootApplication.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myspringboot/src/main/java/cn/tekin/anno/MySpringbootApp.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/myspringboot/src/main/java/cn/tekin/config/MyAutoConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringboot/src/main/java/cn/tekin/config/MyAutoConfiguration.java" charset="US-ASCII" />
     <file url="file://$PROJECT_DIR$/myspringboot/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/myspringboot/src/main/resources/META-INF/services/cn.tekin.config.MyWebServerAutoConfiguration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myspringboot/src/main/resources/META-INF/services/cn.tekin.config.MyAutoConfiguration" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/myspringboot/src/main/resources/META-INF/services/cn.tekin.config.MyWebServerAutoConfiguration" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/service-demo/.gitignore" charset="US-ASCII" />
     <file url="file://$PROJECT_DIR$/service-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-demo/src/main/java/ws/yunnan/demo/config/MyCharacterFilter.java" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/service-demo/src/main/java/ws/yunnan/demo/config/MyWebMvcConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-demo/src/main/java/ws/yunnan/demo/config/RedissonConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-demo/src/main/java/ws/yunnan/demo/config/WebMvcConfig.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-demo/src/main/java/ws/yunnan/demo/controller/UserController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-demo/src/main/java/ws/yunnan/demo/service/UserService.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-demo/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.80/tomcat-embed-core-9.0.80.jar!/org/apache/catalina/Context.class" charset="GBK" />
+    <file url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.80/tomcat-embed-core-9.0.80.jar!/org/apache/tomcat/util/descriptor/web/FilterDef.class" charset="GBK" />
+    <file url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.3.29/spring-context-5.3.29.jar!/org/springframework/context/annotation/ConfigurationClassParser.class" charset="UTF-16LE" />
+    <file url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.3.29/spring-webmvc-5.3.29.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class" charset="UTF-16LE" />
+    <file url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.3.29/spring-webmvc-5.3.29.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class" charset="UTF-16BE" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

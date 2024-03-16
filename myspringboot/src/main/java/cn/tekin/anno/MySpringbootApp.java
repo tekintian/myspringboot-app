@@ -4,7 +4,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-import java.lang.annotation.*;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
  * 自定义的Spingboot注解
@@ -15,7 +18,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Configuration
 @ComponentScan(basePackages = {"cn.tekin.config","ws.yunnan.demo"})
-//@Import(cn.tekin.MyImportSelector.class) // 导入自动配置类的批量加载选择器
 public @interface MySpringbootApp {
 
 }

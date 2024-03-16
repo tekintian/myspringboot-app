@@ -25,6 +25,23 @@ src/main/java/cn/tekin/anno/MySpringbootApp.java
 - spring服务解耦示例
   利用springboot的自动配置功能+ @Conditional注解来解耦服务, 参考 cn/tekin/MySpringbootApplication.java 里面的webserver实现
   
+## demo
+默认端口8089 可以在 cn.tekin.webserver.MyTomcatWebServer里面修改端口
+
+Redisson秒杀功能测试
+- 增加库存
+http://localhost:8089/addStock/999999
+
+- 减库存
+  http://localhost:8089/deductStock
+
+- 高并发模拟减库存
+~~~sh
+ab -n 10000 -c 10 http://localhost:8089/deductStock
+~~~
+
+
+
 
 ## tips
 
