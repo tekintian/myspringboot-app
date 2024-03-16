@@ -3,10 +3,9 @@ package ws.yunnan.demo.service;
 import org.redisson.api.RReadWriteLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Service // 这个注解的作用是将当前类当做一个组件加入到spring容器中
+@Service // 这个注解的作用是将当前类标识为spring服务加入到spring容器中
 public class UserService {
     @Autowired
     private RedissonClient redisson;
